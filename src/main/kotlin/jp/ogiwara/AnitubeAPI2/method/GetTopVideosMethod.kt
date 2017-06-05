@@ -1,14 +1,9 @@
 package jp.ogiwara.AnitubeAPI2.method
 
-import com.intellij.configurationStore.askToRestart
 import jp.ogiwara.AnitubeAPI2.Anitube
 import jp.ogiwara.AnitubeAPI2.http.getBody
 import jp.ogiwara.AnitubeAPI2.makeVideo
 import jp.ogiwara.AnitubeAPI2.model.Video
-import org.jsoup.Jsoup
-import org.jsoup.nodes.Element
-import org.junit.Test
-import kotlin.concurrent.fixedRateTimer
 
 internal class GetTopVideosMethod(val fragment: String) {
 
