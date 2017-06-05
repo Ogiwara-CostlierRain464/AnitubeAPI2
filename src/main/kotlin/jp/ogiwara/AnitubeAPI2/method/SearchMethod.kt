@@ -14,6 +14,7 @@ internal class SearchMethod(val keyword: String) {
         elements.forEach {
             result.add(makeVideo(it))
         }
+        
         return result
     }
 }
